@@ -15,8 +15,8 @@ class NilaiController extends Controller
 
     public function print() {
         $nilai  = Nilai::all();
-        // $pdf    = App::make('dompdf.wrapper');
-        $pdf    = PDF::loadview('nilai_pdf', ['nilai'=>$nilai]);
+        $pdf    = \PDF::loadview('nilai_pdf', ['nilai'=>$nilai])
+                ->setPaper('a4', 'potrait');
         return $pdf->stream();
     }
 }

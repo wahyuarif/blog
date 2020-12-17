@@ -19,3 +19,7 @@ Route::get('/upload', 'SyaratPengajuanController@upload');
 Route::post('/upload/process', 'SyaratPengajuanController@uploadProcess');
 Route::get('/nilai', 'NilaiController@index');
 Route::get('/nilai/print', 'NilaiController@print');
+
+Route::get('/jajal', function(){
+    return view('nilai_pdf');
+});
