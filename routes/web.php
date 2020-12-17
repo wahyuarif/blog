@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('/upload', 'SyaratPengajuanController@upload');
 Route::post('/upload/process', 'SyaratPengajuanController@uploadProcess');
+Route::get('/nilai', 'NilaiController@index');
+Route::get('/nilai/print', 'NilaiController@print');
