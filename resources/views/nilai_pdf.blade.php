@@ -14,7 +14,7 @@
             <h3 class="mx-auto">FORMULIR NILAI AKHIR KERJA PRAKTEK</h3>
         </center>
 
-        <table width="70%">
+        <table width="13%">
             <tr>
                 <td>Nama</td>
                 <td>:</td>
@@ -46,13 +46,7 @@
                     <th>Nilai</th>
                     <th>Bobot x Nilai</th>
                     <th>Tanda Tangan & Stempel</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+                </tr>             
 			</thead>
 			<tbody>
 				<tr>

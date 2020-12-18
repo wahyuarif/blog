@@ -23,3 +23,6 @@ Route::get('/nilai/print', 'NilaiController@print');
 Route::get('/jajal', function(){
     return view('nilai_pdf');
 });
+Route::get('/lembar_bimbingan', function(){
+    return view('lembar_bimbingan');
+});
